@@ -5,3 +5,5 @@ Such a kind of the prediction model is called an IP scoring function (IP-SF).
 For the potency prediction sub_challenge,
 the IP-SFs employing a gradient boosting decision tree (GBDT) algorithm in conjunction with the FlexS (for pose generation) + MIN + GB simulation protocol.
 Then we add an extra step of MCS-based constrained energy minimization for the final prediction of pIC50 values for Sars Cov2 Mpro and Mers Cov Mpro.
+
+For more detail: https://academic.oup.com/bib/article/22/5/bbab054/6184410
