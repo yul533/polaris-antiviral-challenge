@@ -1,1 +1,7 @@
-
+Structure-based virtual screenings (SBVSs) play an important role in drug discovery projects.
+However, it is still a challenge to accurately predict the binding affinity of an arbitrary molecule binds to a drug target and prioritize top ligands from an SBVS.
+We developed a novel method, using ligand-residue interaction profiles (IPs) to construct machine learning (ML)-based prediction models, to improve the screening performance in SBVSs. 
+Such a kind of the prediction model is called an IP scoring function (IP-SF). 
+For the potency prediction sub_challenge,
+the IP-SFs employing a gradient boosting decision tree (GBDT) algorithm in conjunction with the FlexS (for pose generation) + MIN + GB simulation protocol.
+Then we add an extra step of MCS-based constrained energy minimization for the final prediction of pIC50 values for Sars Cov2 Mpro and Mers Cov Mpro.
