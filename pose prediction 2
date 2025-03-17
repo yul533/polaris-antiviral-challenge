@@ -9,4 +9,4 @@ Instead of calculating a docking, FlexS determines the similarity between the te
 This ensures that the search is limited to low-energy structures improving the quality of the results in a given amount of computing time.
 For more detail: https://pubs.acs.org/doi/10.1021/jm981037l
 
-We add an extra step of minimization for the complex of protein and ligand for this submission.
+We add an extra step of MCS-based constrained energy minimization for the complex of protein and ligand for this submission.
