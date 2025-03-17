@@ -1,1 +1,10 @@
-
+For pose prediction, we use the tool FlexS.
+FlexS is a tool for predicting ligand superpositions. 
+For a given pair of ligands, FlexS predicts the conformation and orientation of one of the ligands relative to the other one.
+FlexS is based on sophisticated physico-chemical models. In FlexS the reference-ligand is assumed to be rigid, 
+thus, it should be given in a conformation which is similar to the bound state. 
+The MIMUMBA torsion angle database is used for the creation of conformers, an interaction geometry database is used to exactly describe intermolecular interaction patterns. 
+For scoring, the Böhm function (with minor adaptions necessary for docking) is applied.
+Instead of calculating a docking, FlexS determines the similarity between the test and the reference structure by aligning them. 
+This ensures that the search is limited to low-energy structures improving the quality of the results in a given amount of computing time.
+For more detail: https://pubs.acs.org/doi/10.1021/jm981037l
